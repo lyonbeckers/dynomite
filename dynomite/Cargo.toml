@@ -18,7 +18,7 @@ maintenance = { status = "actively-developed" }
 
 [dependencies]
 async-trait = "0.1"
-again = { git = "https://github.com/lyonbeckers/again.git", default_features = false, features = ["rand"] }
+again = { git = "https://github.com/lyonbeckers/again.git", branch="develop", default_features = false, features = ["rand"] }
 bytes = "1"
 dynomite-derive = { version = "0.10.0", path = "../dynomite-derive", optional = true }
 futures = "0.3"
